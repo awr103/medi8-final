@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "main": "server.js",
   "scripts": {
-  "start": "node server.js",
-  "dev": "nodemon server.js"
-},
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/awr103/medi8-final.git"
@@ -18,6 +18,16 @@
   },
   "homepage": "https://github.com/awr103/medi8-final#readme",
   "description": "",
+  "dependencies": {
+    "express": "^4.21.2",
+    "dotenv": "^16.4.7",
+    "cors": "^2.8.5",
+    "helmet": "^6.1.2",
+    "express-rate-limit": "^7.0.0",
+    "openai": "^4.10.0",
+    "joi": "^17.8.3",
+    "winston": "^3.8.2"
+  },
   "devDependencies": {
     "nodemon": "^3.1.9"
   }
